@@ -1,5 +1,4 @@
-function rentalCarCost(n) {
-  const cost = 40;
+function rentalCarCost(n, cost = 40) {
   if (n < 3) {
     return n * cost;
   } else if (n > 3 && n < 7) {
